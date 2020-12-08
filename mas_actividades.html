@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Estella Cultural</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet" type="text/css"/>
+	</head>
+
+	<body>
+		<div class="masactividades">
+			<div class="header">
+				<div class="principal">
+					<div class="divlogo">
+						<a href="index.html">
+							<img src="images/logo.png" alt="Estella Cultural" class="logo"/>
+						</a>
+					</div>
+					<div class="menusuperior">
+						<a onclick="" class="idioma">
+							<img src="images/español.png" alt="Español" class="bandera"/>
+							<span>ES</span>
+						</a>
+						<a onclick="" class="idioma">
+							<img src="images/ingles.png" alt="Inglés" class="bandera"/>
+							<span>EN</span>
+						</a>
+					</div>
+				</div>
+				<div class="menuprincipal" id="navbar">
+					<ul>
+						<li><a href="inscripciones.html">Inscripciónes</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="mas_actividades.html">Más actividades culturales</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="content">
+				<div class="centrar">
+					<h1>Más actividades próximamente.</h1>
+					<h2>Disculpen las molestias.</h2>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="columnas">
+					<div class="columnafooter secciones">
+						<h1>Secciones</h1>
+						<img src="images/lineablanca.png" alt="Español" class="lineafooter"/>
+						<p>Home</p>
+						<p>Inscripciónes</p>
+						<p>Blog</p>
+						<p>Más actividades culturales</p>
+					</div>
+					<div class="columnafooter contacto">
+						<h1>Contacto</h1>
+						<img src="images/lineablanca.png" alt="linea" class="lineafooter"/>
+						<p>ESTELLA Cultural (logo)</p>
+						<p>Plaza de los Fueros, 1. 31000 Estella</p>
+						<p>Tel. 94 55 55 55</p>
+						<p><a href="mailto:info@estellacultural.org">info@estellacultural.org</a></p>
+						<div class="redes">
+							<span>Síguenos: </span>
+							<a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt="Twitter" class="logoredes"/></a>
+							<a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook" class="logoredes"/></a>
+							<a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="instagram" class="logoredes"/></a>
+							<a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="youtube" class="logoredes"/></a>
+						</div>
+					</div>
+					<div class="columnafooter creditos">
+						<h1>Créditos</h1>
+						<img src="images/lineablanca.png" alt="Español" class="lineafooter"/>
+						<p>© ESTELLA Cultural</p>
+						<p>Fotografías <a href="https://pixabay.com" target="_blank">Pixabay</a>, <a href="https://unsplash.com" target="_blank">Unsplash</a> y <a href="https://wikipedia.org" target="_blank">Wikipedia</a></p>
+						<p>Actividad realizada por Asier García Aristu, para la asignatura Diseño de interfaces Web. Primer semestre del curso 2020-2021</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script type="text/javascript">
+			window.onscroll = function() {myFunction()};
+
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			  } else {
+				navbar.classList.remove("sticky");
+			  }
+			}
+		</script>
+		
+	</body>
+</html>
