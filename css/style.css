@@ -16,7 +16,7 @@ body {background: #F1F1F1; margin: 0; font-family: 'Roboto', sans-serif;}
 	.menusuperior{position: absolute; background-color: #D86B68; right: 0px; top: 0px; padding: 5px;}
 	.menusuperior span{font-size:20px; margin-right: 5px;}
 	.menusuperior span:hover{text-decoration: underline;}
-	.idioma{cursor:pointer;}
+	.idioma{cursor: pointer;}
 
 	/*Menu Principal*/
 	.menuprincipal{text-align:center; background-color: #333333;}
