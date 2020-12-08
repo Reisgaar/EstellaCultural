@@ -8,7 +8,7 @@ body {background: #F1F1F1; margin: 0; font-family: 'Roboto', sans-serif;}
 .inglés{}
 
 /*Cabecera*/
-.principal{background-color: darkorchid; display: flex;}
+.principal{background-color: #AF3D3A; display: flex;}
 .divlogo{margin:auto; position: relative;}
 .logo{width:355px; margin:15px 0; filter: invert(1);}
 
